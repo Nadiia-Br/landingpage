@@ -61,6 +61,11 @@ table {
 }
 
 
+
+
+
+
+
 h1 {
     color: #9db0d1;
     font-size: 60px;
@@ -69,23 +74,26 @@ h1 {
 .wrap {
     width: 1440px;
     height: 2148px;
-    background: aqua;
+    background: #E5E5E5;
     margin: 0 auto;
 }
 
 .header {
-    background: #ffffff;
+
     text-align: center;
     font-size: 60px;
     color: #9DB0D1;
     box-sizing: border-box;
-    margin: 100px auto;
-    padding-bottom: 70px;
+    margin: 0px auto;
+    padding: 100px 0px 50px 0px;
 }
 
+.info{
+    background: #E5E5E5;
 
+}
 .info_description {
-    margin: 50px 208px 50px 208px;
+    margin: 0px 208px 50px 208px;
     text-align: center;
 }
 
@@ -157,7 +165,8 @@ button:hover {
     display: flex;
     column-gap: 75px;
     box-sizing: border-box;
-    padding: 120px;
+    padding: 0 120px;
+    background: #87C6EB;
 }
 
 .pic {
@@ -166,7 +175,7 @@ button:hover {
     background: #FFFFFF;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20px ;
+    padding: 20px;
 }
 
 
@@ -224,4 +233,73 @@ button:hover {
 
 .bold {
     font-weight: bold;
+}
+
+.details {
+    background: #87C6EB;
+    display: flex;
+    padding: 35px 120px;
+}
+
+.mount > img {
+    width: 600px;
+    height: 475px;
+}
+
+.title {
+    height: 132px;
+    width: 600px;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Arapey';
+    margin-top: 40px;
+}
+
+.data {
+
+    height: 73px;
+    width: 570px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: #000000;
+    margin: 50px 0px;
+    text-align: inherit;
+}
+
+.white_btn {
+    width: 220px;
+    height: 80px;
+    background: #FFFFFF;
+    color: #EBAC87;
+}
+
+.underl {
+    text-decoration: underline;
+}
+
+.right {
+    position: relative;
+}
+
+.mark {
+    background: #EBAC87;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+}
+
+.footer {
+    padding: 50px 120px;
+    display: flex;
+    background: #E5E5E5;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    column-gap: 36px;
+    margin-top: 50px;
 }
